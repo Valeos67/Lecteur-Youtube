@@ -21,6 +21,8 @@ class Tableau_Controller: UIViewController, UITableViewDelegate, UITableViewData
         tableview.delegate = self
         tableview.dataSource = self
         ajouterChanson()
+        title = "Mes vidéos préférées"
+//        equivalent à navigationController?.title = "Mes vidéoes préférées" car implicite
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -38,7 +40,7 @@ class Tableau_Controller: UIViewController, UITableViewDelegate, UITableViewData
         return UITableViewCell()
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 170
+        return 130
     }
     
     
