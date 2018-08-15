@@ -14,6 +14,7 @@
 		B6C3A210212452C200F61780 /* Tableau Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3A20F212452C200F61780 /* Tableau Controller.swift */; };
 		B6C3A2122124556C00F61780 /* Chanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3A2112124556C00F61780 /* Chanson.swift */; };
 		B6C3A2142124797800F61780 /* ChansonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3A2132124797800F61780 /* ChansonCell.swift */; };
+		B6C3A2162124895900F61780 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3A2152124895900F61780 /* VideoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B6C3A20F212452C200F61780 /* Tableau Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tableau Controller.swift"; sourceTree = "<group>"; };
 		B6C3A2112124556C00F61780 /* Chanson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanson.swift; sourceTree = "<group>"; };
 		B6C3A2132124797800F61780 /* ChansonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansonCell.swift; sourceTree = "<group>"; };
+		B6C3A2152124895900F61780 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B6C3A20F212452C200F61780 /* Tableau Controller.swift */,
 				B6C3A2112124556C00F61780 /* Chanson.swift */,
 				B6C3A2132124797800F61780 /* ChansonCell.swift */,
+				B6C3A2152124895900F61780 /* VideoController.swift */,
 			);
 			path = "Lecteur Youtube";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C3A2162124895900F61780 /* VideoController.swift in Sources */,
 				B6C3A1FE21244D9B00F61780 /* AppDelegate.swift in Sources */,
 				B6C3A210212452C200F61780 /* Tableau Controller.swift in Sources */,
 				B6C3A2142124797800F61780 /* ChansonCell.swift in Sources */,
